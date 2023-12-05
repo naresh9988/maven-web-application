@@ -4,7 +4,7 @@ metadata:
   name: webapp
 spec:
   revisionHistoryLimit: 10
-  replicas: 1
+  replicas: 2
   strategy:
     type: Recreate
   selector:
