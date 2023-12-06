@@ -4,7 +4,7 @@ metadata:
   name: webapp
 spec:
   revisionHistoryLimit: 10
-  replicas: 2
+  replicas: 1
   strategy:
     type: Recreate
   selector:
@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: webap
-          image: nareshdocker99/maven-web-application:2
+          image: nareshdocker99/maven-web-application:3
           ports:
             - containerPort: 8080
           resources:
