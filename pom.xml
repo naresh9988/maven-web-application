@@ -96,17 +96,6 @@
 	<distributionManagement>
 	
 	    <repository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.126.121.207:8081/repository/webapp/</url>
-	    </repository>
-	    
-	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.126.121.207:8081/repository/sanpshotwebapp/</url>
-	    </snapshotRepository>
-	    <repository>
                <id>Artifact-java</id>
                <url>https://pkgs.dev.azure.com/bnareshmsi/Agile/_packaging/Artifact-java/maven/v1</url>
                <releases>
@@ -129,11 +118,8 @@
              <snapshots>
                <enabled>true</enabled>
              </snapshots>
-
-		   
            </repository>
-	
-       </repositories>
+	</repositories>
 	
 	
 	<build>
