@@ -51,8 +51,7 @@ trigger:
     command: 'build'
 - master
 
-pool:
-  vmImage: ubuntu-latest
+pool: mypool-agent
 
 steps:
 - task: Maven@3
