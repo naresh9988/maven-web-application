@@ -94,7 +94,7 @@
 	</dependencies>
 	
 	<distributionManagement>
-	
+	    <!--
 	    <repository>
                <id>Artifact-java</id>
                <url>https://pkgs.dev.azure.com/bnareshmsi/Agile/_packaging/Artifact-java/maven/v1</url>
@@ -105,9 +105,11 @@
                  <enabled>true</enabled>
                </snapshots>
            </repository>
+	   -->
+		
 	    
 	</distributionManagement>
-
+        <!--
         <repositories>
            <repository>
              <id>Artifact-java</id>
@@ -120,6 +122,7 @@
              </snapshots>
            </repository>
 	</repositories>
+	-->
 	
 	
 	<build>
